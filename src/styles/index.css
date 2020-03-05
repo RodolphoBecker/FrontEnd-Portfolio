@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-family: "Open Sans" !important;
+}
+.text-white {
+  color: #fff !important;
+}
+.opacity-img a {
+  transition: all ease .5s;
+}
+.opacity-img a:hover {
+  transition: all ease .5s;
+  opacity: 0.6;
+}
+.text-white {
+  color: #fff!important;
+}
+.text-gray {
+  color: #2A2931!important;
+}
+.scale-hover {
+  transition: all ease .5s;
+}
+.scale-hover:hover {
+  transition: all ease .5s;
+  transform: scale(0.95);
+}
+.main-title h1 {
+  font-size: 4rem;
+  color: #B6B6B6;
+  font-weight: bold;
+}
+.main-title h2 {
+  font-size: 2.5rem;
+  color: #B6B6B6;
+  font-weight: bold;
+}
+.hover-padrao a {
+  transition: all ease .5s;
+}
+.hover-padrao a:hover {
+  transition: all ease .5s;
+  color: #FFB507 !important;
+}
+.hover-branco a {
+  transition: all ease .5s;
+}
+.hover-branco a:hover {
+  transition: all ease .5s;
+  color: #fff!important;
+}

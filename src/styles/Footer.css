@@ -1,0 +1,74 @@
+#contato {
+    padding: 50px 0 20px 0;
+    background-color:#FFB507;
+}
+.contato-titulo h1 {
+    color: #fff!important;
+}
+.contato-texto {
+    margin: 30px 0;
+}
+.contato-texto p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+.link-single {}
+.link-single a {
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    transition: all ease .5s;
+    text-decoration: none!important;
+}
+.link-single a:hover {
+    transition: all ease .5s;
+    color: #fff;
+}
+.link-single a:after {
+    content: "";
+    background-image: url('../components/img/icon-arrow-right-black.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(50%);
+}
+.wrapper-content {
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.menu-inferior {
+    padding-top: 50px;
+    border-top: 1px solid #fff;
+}
+.menu-inferior>div>div {
+    justify-content: space-between;
+}
+.menu-inferior-dados {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-inferior-dados .texto {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.menu-inferior-dados .texto p {
+    font-size: 0.8rem;
+}
+.menu-inferior-dados .texto p span a {
+    text-decoration: none!important;
+    color: #000;
+    font-weight: bold;
+    transition: all ease .5s;
+    font-size: 0.8rem;
+}
+.menu-inferior-dados .texto p span a:hover {
+    transition: all ease .5s;
+    color: #fff;
+}

@@ -1,0 +1,59 @@
+#home {
+    background-color: black;
+    height: 100vh;
+    background-image: url('../components/img/bg-home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#home>div {
+    height: 100%;
+}
+#home>div>div {
+    height: 100%;
+}
+#home>div>div> .home-conteudo-geral {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#home>div>div> .home-conteudo-geral>div {
+    justify-content: space-between;
+}
+#home>div>div> .home-conteudo-geral>div .home-conteudo-single {}
+#home>div>div> .home-conteudo-geral>div .home-conteudo-single h1 {
+    margin-bottom: 50px;
+    font-size: 3.0rem;
+    color: #FFB507;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 70px;
+}
+#home>div>div> .home-conteudo-geral>div .home-conteudo-single p {} 
+#home>div>div> .home-conteudo-geral>div .home-conteudo-single img {
+    box-shadow: 22px 26px 5px 0px rgba(0,0,0,0.75);
+}
+#home>div>div> .home-conteudo-geral>div .home-conteudo-single a {
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+#home>div>div> .home-conteudo-geral>div .home-conteudo-single a:after {
+    content: "";
+    background-image: url('../components/img/icon-arrow-down-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+#home>div>div> .home-conteudo-geral>div .home-conteudo-single a span {
+    color: #FFB507;
+}
+.scale-hover {
+    display: inline-block;
+}

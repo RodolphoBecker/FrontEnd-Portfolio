@@ -1,0 +1,33 @@
+#sobre {
+    padding: 50px;
+    background-color: #2A2931;
+}
+.sobre-titulo {
+    text-align: right;
+}
+.historico-geral>div {
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.historico-titulo {
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+}
+.historico-titulo h2 {
+    color: #FFB507;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.historico-subtitulo p {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+
+}
+.historico-texto p {
+    font-size: 0.9rem;
+}
+.descricao {
+    margin-bottom: 50px;
+}

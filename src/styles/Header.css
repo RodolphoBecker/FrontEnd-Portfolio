@@ -1,0 +1,74 @@
+#header {
+    position: fixed;
+    z-index: 5;
+    transition: all ease .5s;
+    width: 100%;
+    padding: 15px 0 ;
+    border-bottom: 2px solid transparent;
+}
+#header.fixed {
+    background-color: #707070;
+    transition: all ease .5s;
+    border-bottom: 2px solid #FFB507ed ;
+}
+#header .menu-principal {}
+#header .menu-principal>div {}
+#header .menu-principal>div>div {}
+#header .menu-principal>div>div .menu-header-geral {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .menu-principal>div>div .menu-header-geral .logo {
+    margin-left: 30px;
+}
+#header .menu-principal>div>div .menu-header-geral .logo a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: all ease .5s;
+}
+#header .menu-principal>div>div .menu-header-geral .logo a:hover {
+    transition: all ease .5s;
+    color: #FFB507ed;
+}
+#header .menu-principal>div>div .menu-header-geral .menu-hamburger {}
+#header .menu-principal>div>div .menu-header-geral .menu-hamburger .menu-item {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 10px 0;
+    transition: all ease .5s;
+    outline: none;
+}
+#header .menu-principal>div>div .menu-header-geral .menu-hamburger .menu-item:hover {
+    text-decoration: none;
+    transition: all ease .5s;
+    color: #FFB507;
+}
+#header .redes-sociais {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 9999;
+}
+#header .redes-sociais .rede-social-single {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    
+}
+#header .redes-sociais .rede-social-single a {}
+#header .redes-sociais .rede-social-single a img {
+    width: 80%;
+}
+
+.bm-burger-button {
+    right: 45px;
+    top: 30px;
+}

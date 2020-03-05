@@ -1,0 +1,94 @@
+#projetos {
+    padding: 50px 0;
+    background-color:#fff;
+    margin-top: -4px;
+}
+#projetos>div {}
+#projetos>div>div {}
+#projetos>div>div .projetos-geral {}
+#projetos>div>div .projetos-geral .projetos-titulo {
+    text-align: right;
+}
+#projetos>div>div .projetos-geral .projetos-titulo h1 {}
+#projetos>div>div .projetos-geral .projetos-mosaico {
+    margin: 50px 0;
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single {
+    text-align: right;
+    position: relative;
+    margin-bottom: 80px;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.29);
+    box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.29);
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single img
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single .dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single:hover .dados {
+    top: 0;
+    transition: all ease .5s;
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single .dados .projetos-subtitulo {
+    text-align: center;
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single .dados .projetos-subtitulo h2 {}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single .dados .projetos-link {
+    text-align: center;
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single .dados .projetos-link a{
+    position: relative;
+    padding-right: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projeto-single .dados .projetos-link a:after {
+    content: "";
+    background-image: url(../components/img/icon-arrow-right-cinza.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+    transform: translateY(
+        50%);
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projetos-link {}
+#projetos>div>div .projetos-geral .projetos-mosaico .projetos-link a {
+    text-decoration: none;
+    position: relative;
+    padding-right: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#projetos>div>div .projetos-geral .projetos-mosaico .projetos-link a:after {
+    content: "";
+    background-image: url(../components/img/icon-arrow-right-cinza.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+    transform: translateY(
+        50%);
+}
+
+.dados {
+    position: absolute;
+    top: -600px;
+    width: 100%;
+    height: 100%;
+    transition: all ease .5s;
+    background-color: #ffb507cf;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
